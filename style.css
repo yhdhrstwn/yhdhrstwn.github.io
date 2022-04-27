@@ -1,5 +1,7 @@
 nav,
 .jumbotron,
+.tiga,
+.dua,
 #skills,
 #portfolio {
   background-color: #001932;
@@ -85,6 +87,23 @@ a:hover {
     margin-top: 300px;
   }
 
+  .dua .container {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .dua .container .card {
+    width: 275px;
+  }
+
+  .teks {
+    color: #001932;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
   /* end portfolio */
 }
 /* end dekstop */
@@ -159,6 +178,23 @@ a:hover {
     margin-top: 250px;
   }
 
+  .dua .container {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .dua .container .card {
+    width: 250px;
+  }
+
+  .teks {
+    color: #001932;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
   /* end portfolio */
 }
 @media (max-width: 991px) and (min-width: 768px) {
@@ -227,6 +263,23 @@ a:hover {
     position: absolute;
     font-size: 30px;
     margin-top: 200px;
+  }
+
+  .dua .container {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .dua .container .card {
+    width: 225px;
+  }
+
+  .teks {
+    color: #001932;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
   }
   /* end portfolio */
 }
@@ -299,6 +352,23 @@ a:hover {
     font-size: 24px;
     margin-top: 150px;
   }
+
+  .dua .container {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .dua .container .card {
+    width: 200px;
+  }
+
+  .teks {
+    color: #001932;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
   /* end portfolio */
 }
 @media (max-width: 575px) {
@@ -358,14 +428,32 @@ a:hover {
     width: 125px;
     left: 0;
     font-size: small;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left: 110px;
   }
   .tunjuk {
     float: right;
   }
+
   .saya img {
     width: 60%;
+  }
+
+  .dua .container {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .dua .container .card {
+    width: 200px;
+  }
+
+  .teks {
+    color: #001932;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
   }
   /* end portfolio */
 }
@@ -393,20 +481,6 @@ a:hover {
 /* end skills */
 
 /* portfolio */
-.kard {
-  overflow-x: auto !important;
-}
-.card {
-  display: inline;
-  margin: 20px;
-}
-.teks {
-  color: #001932;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-}
 
 /* end portfolio */
 
