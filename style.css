@@ -10,7 +10,7 @@ footer {
   position: relative;
 }
 
-.teks {
+.teksa {
   color: #001932;
 }
 
@@ -132,6 +132,10 @@ a:hover {
   /* end about */
 
   /* portfolio */
+  .card {
+    margin: 50px;
+  }
+
   .tunjuk {
     position: relative;
     float: right;
@@ -302,23 +306,25 @@ a:hover {
   .jumbotron .container {
     position: relative;
   }
+
   .jumbotron h1,
   .jumbotron p {
     display: inline-block;
-    margin-left: 50%;
     position: absolute;
   }
   .jumbotron h1 {
-    margin-top: 15%;
-    font-size: 20px;
+    font-size: 35px;
+    margin-top: 25%;
   }
   .jumbotron p {
-    font-size: small;
-    margin-top: 20%;
+    font-size: medium;
+    margin-top: 30%;
   }
+
   .jumbotron img {
-    top: 0;
-    left: 0;
+    margin-top: 47%;
+    z-index: -444;
+    width: 70%;
   }
   /* end Jumbotron */
 
@@ -382,6 +388,25 @@ a:hover {
   margin: 10px 20px;
 }
 /* end skills */
+
+/* portfolio */
+.kard {
+  overflow-x: auto !important;
+  height: 240px;
+}
+.card {
+  display: inline;
+  margin: 20px;
+}
+.teks {
+  color: #001932;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+/* end portfolio */
 
 /* footer */
 footer {
