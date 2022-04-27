@@ -354,15 +354,18 @@ a:hover {
   }
   .cvd {
     position: absolute;
-    z-index: 999;
+    z-index: 99;
+    width: 125px;
     left: 0;
     font-size: small;
-    margin-top: 80px;
-    margin-left: 120px;
+    margin-top: 50px;
+    margin-left: 110px;
   }
   .tunjuk {
-    position: relative;
-    margin-left: 150px;
+    float: right;
+  }
+  .saya img {
+    width: 60%;
   }
   /* end portfolio */
 }
@@ -392,7 +395,6 @@ a:hover {
 /* portfolio */
 .kard {
   overflow-x: auto !important;
-  height: 240px;
 }
 .card {
   display: inline;
