@@ -1,0 +1,390 @@
+nav,
+.jumbotron,
+#skills,
+#portfolio {
+  background-color: #001932;
+}
+
+.container,
+footer {
+  position: relative;
+}
+
+.teks {
+  color: #001932;
+}
+
+a:hover {
+  color: #001932;
+}
+/* Dekstop */
+@media (min-width: 1199px) {
+  /* Jumbotron */
+  .jumbotron .container {
+    position: relative;
+  }
+  .jumbotron h1,
+  .jumbotron p {
+    display: inline-block;
+    margin-left: 50%;
+    position: absolute;
+  }
+  .jumbotron h1 {
+    font-size: 50px;
+    margin-top: 15%;
+  }
+  .jumbotron p {
+    margin-top: 20%;
+  }
+  .jumbotron img {
+    top: 0;
+    left: 0;
+  }
+  /* end Jumbotron */
+
+  /* about */
+
+  .tanya1 {
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 80px;
+  }
+  .tanya2 {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -10px;
+  }
+  .tanya3 {
+    position: absolute;
+    margin-top: 80px;
+    margin-right: -300px;
+  }
+  /* end about */
+
+  /* portfolio */
+  .tunjuk {
+    position: relative;
+    float: right;
+  }
+  .cvd {
+    margin-left: 550px;
+    width: 200px;
+    z-index: 9;
+    margin-top: 200px;
+    position: absolute;
+  }
+  .cv {
+    position: absolute;
+    font-size: 40px;
+    margin-top: 350px;
+  }
+
+  .tertarik {
+    position: absolute;
+    font-size: 50px;
+    margin-top: 300px;
+  }
+
+  /* end portfolio */
+}
+/* end dekstop */
+@media (max-width: 1198px) and (min-width: 992px) {
+  /* Jumbotron */
+  .jumbotron .container {
+    position: relative;
+  }
+  .jumbotron h1,
+  .jumbotron p {
+    display: inline-block;
+    margin-left: 50%;
+    position: absolute;
+  }
+  .jumbotron h1 {
+    margin-top: 15%;
+    font-size: 45px;
+  }
+  .jumbotron p {
+    margin-top: 20%;
+  }
+  .jumbotron img {
+    top: 0;
+    left: 0;
+  }
+  /* end Jumbotron */
+
+  /* about */
+
+  .tanya1 {
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 60px;
+  }
+  .tanya2 {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -10px;
+  }
+  .tanya3 {
+    position: absolute;
+    margin-top: 60px;
+    margin-right: -250px;
+  }
+  /* end about */
+
+  /* portfolio */
+  .tunjuk {
+    position: relative;
+    float: right;
+  }
+  .cvd {
+    margin-left: 450px;
+    width: 200px;
+    z-index: 9;
+    margin-top: 170px;
+    position: absolute;
+  }
+  .cv {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 300px;
+  }
+
+  .tertarik {
+    position: absolute;
+    font-size: 40px;
+    margin-top: 250px;
+  }
+
+  /* end portfolio */
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  /* Jumbotron */
+  .jumbotron .container {
+    position: relative;
+  }
+  .jumbotron h1,
+  .jumbotron p {
+    display: inline-block;
+    margin-left: 50%;
+    position: absolute;
+  }
+  .jumbotron h1 {
+    margin-top: 15%;
+    font-size: 35px;
+  }
+  .jumbotron p {
+    margin-top: 20%;
+  }
+  .jumbotron img {
+    top: 0;
+    left: 0;
+  }
+  /* end Jumbotron */
+
+  /* about */
+  .mikir img {
+    width: auto;
+  }
+  .tanya1 {
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 90px;
+  }
+  .tanya2 {
+    position: absolute;
+    margin-left: 80px;
+  }
+  .tanya3 {
+    position: absolute;
+    margin-top: 90px;
+    margin-right: -300px;
+  }
+  /* end about */
+
+  /* portfolio */
+  .tunjuk {
+    position: relative;
+    float: right;
+  }
+  .cvd {
+    margin-left: 300px;
+    width: 200px;
+    z-index: 9;
+    margin-top: 120px;
+    position: absolute;
+  }
+  .cv {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 240px;
+  }
+
+  .tertarik {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 200px;
+  }
+  /* end portfolio */
+}
+@media (max-width: 767px) and (min-width: 576px) {
+  /* Jumbotron */
+  .jumbotron .container {
+    position: relative;
+  }
+  .jumbotron h1,
+  .jumbotron p {
+    display: inline-block;
+    margin-left: 50%;
+    position: absolute;
+  }
+  .jumbotron h1 {
+    margin-top: 15%;
+    font-size: 25px;
+  }
+  .jumbotron p {
+    font-size: small;
+    margin-top: 20%;
+  }
+  .jumbotron img {
+    top: 0;
+    left: 0;
+  }
+  /* end Jumbotron */
+
+  /* about */
+  .mikir img {
+    margin-left: 50%;
+    width: auto;
+  }
+  .tanya1 {
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+  .tanya2 {
+    position: absolute;
+    margin-right: -50px;
+  }
+  .tanya3 {
+    position: absolute;
+    margin-top: 50px;
+    margin-right: -200px;
+  }
+  /* end about */
+
+  /* portfolio */
+  .tunjuk {
+    position: relative;
+    float: right;
+  }
+  .cvd {
+    margin-left: 220px;
+    width: 150px;
+    z-index: 9;
+    margin-top: 80px;
+    position: absolute;
+  }
+  .cv {
+    position: absolute;
+    font-size: 18px;
+    margin-top: 180px;
+  }
+
+  .tertarik {
+    position: absolute;
+    font-size: 24px;
+    margin-top: 150px;
+  }
+  /* end portfolio */
+}
+@media (max-width: 575px) {
+  /* Jumbotron */
+  .jumbotron .container {
+    position: relative;
+  }
+  .jumbotron h1,
+  .jumbotron p {
+    display: inline-block;
+    margin-left: 50%;
+    position: absolute;
+  }
+  .jumbotron h1 {
+    margin-top: 15%;
+    font-size: 20px;
+  }
+  .jumbotron p {
+    font-size: small;
+    margin-top: 20%;
+  }
+  .jumbotron img {
+    top: 0;
+    left: 0;
+  }
+  /* end Jumbotron */
+
+  /* about */
+  .mikir img {
+    width: 50%;
+  }
+  .tanya1 {
+    position: absolute;
+    margin-right: 130px;
+    margin-top: 70px;
+  }
+  .tanya2 {
+    position: absolute;
+    margin-right: -50px;
+  }
+  .tanya3 {
+    position: absolute;
+    margin-top: 70px;
+    margin-right: -230px;
+  }
+  /* end about */
+
+  /* portfolio */
+  .tertarik {
+    font-size: 25px;
+  }
+  .cvd {
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    font-size: small;
+    margin-top: 80px;
+    margin-left: 170px;
+  }
+  .tunjuk {
+    position: relative;
+    margin-left: 200px;
+  }
+  /* end portfolio */
+}
+
+/* about */
+.rata {
+  text-align: justify;
+  text-indent: 3em;
+}
+.mikir {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+/* end about */
+
+/* skills */
+.flek {
+  display: flex;
+  flex-wrap: wrap;
+}
+.imege {
+  margin: 10px 20px;
+}
+/* end skills */
+
+/* footer */
+footer {
+  height: 100px;
+}
+/* end footer */
