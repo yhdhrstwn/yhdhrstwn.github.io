@@ -24,6 +24,10 @@ a:hover {
   /* Jumbotron */
   .jumbotron .container {
     position: relative;
+    height: 100%;
+  }
+  .jumbotron {
+    height: 100%;
   }
   .jumbotron h1,
   .jumbotron p {
@@ -41,6 +45,7 @@ a:hover {
   .jumbotron img {
     top: 0;
     left: 0;
+    margin-top: 5%;
   }
   /* end Jumbotron */
 
@@ -111,6 +116,10 @@ a:hover {
   /* Jumbotron */
   .jumbotron .container {
     position: relative;
+    height: 100%;
+  }
+  .jumbotron {
+    height: 100%;
   }
   .jumbotron h1,
   .jumbotron p {
@@ -128,6 +137,7 @@ a:hover {
   .jumbotron img {
     top: 0;
     left: 0;
+    margin-top: 5%;
   }
   /* end Jumbotron */
 
@@ -201,6 +211,10 @@ a:hover {
   /* Jumbotron */
   .jumbotron .container {
     position: relative;
+    height: 100%;
+  }
+  .jumbotron {
+    height: 100%;
   }
   .jumbotron h1,
   .jumbotron p {
@@ -218,6 +232,7 @@ a:hover {
   .jumbotron img {
     top: 0;
     left: 0;
+    margin-top: 5%;
   }
   /* end Jumbotron */
 
@@ -287,6 +302,10 @@ a:hover {
   /* Jumbotron */
   .jumbotron .container {
     position: relative;
+    height: 100%;
+  }
+  .jumbotron {
+    height: 100%;
   }
   .jumbotron h1,
   .jumbotron p {
@@ -305,6 +324,7 @@ a:hover {
   .jumbotron img {
     top: 0;
     left: 0;
+    margin-top: 5%;
   }
   /* end Jumbotron */
 
@@ -375,6 +395,10 @@ a:hover {
   /* Jumbotron */
   .jumbotron .container {
     position: relative;
+    height: 100%;
+  }
+  .jumbotron {
+    height: 100%;
   }
 
   .jumbotron h1,
